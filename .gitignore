@@ -1,3 +1,7 @@
 __pycache__/
 *.pyo
 *.pyc
+results/
+report.html
+dist/
+.venv/

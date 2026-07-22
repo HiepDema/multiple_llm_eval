@@ -1,0 +1,6 @@
+{"id": 1, "question": "Write a Python function that checks whether a string is a palindrome, ignoring case and non-alphanumeric characters. Include a brief explanation."}
+{"id": 2, "question": "Write a Python function that returns the n-th Fibonacci number iteratively, and explain its time complexity."}
+{"id": 3, "question": "Given a list of integers, write a Python function that returns the two numbers that sum to a given target. Explain your approach and its complexity."}
+{"id": 4, "question": "Explain the difference between a list and a tuple in Python, and give an example of when each is the better choice."}
+{"id": 5, "question": "Write a SQL query that finds the second-highest salary in an 'employees' table. Explain how it handles ties."}
+{"id": 6, "question": "What does this code print and why? \n\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)"}

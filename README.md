@@ -124,6 +124,67 @@ poetry run eval-llm config.yaml -o report.html
 
 Open `report.html` in a web browser to view the evaluation results.
 
+## Benchmark Matrix (multi-model comparison)
+
+Beyond single-model evaluation, `eval-llm-benchmark` runs a full **models × benchmarks matrix** (e.g. 5 models × 5 benchmarks = 25 tests), aggregates the scores, and exports comparison charts.
+
+```bash
+poetry run eval-llm-benchmark benchmark_config.yaml
+```
+
+Useful flags:
+
+- `--mock` — simulate answers and scores (no LLM servers needed; good for testing the pipeline and charts).
+- `--limit N` — only run the first N questions of each benchmark.
+- `--charts-only` — skip inference; rebuild metrics and charts from saved raw results.
+- `--fresh` — ignore cached raw results and re-run every model × benchmark pair.
+
+Runs are **resumable**: each model × benchmark pair is saved to `results/raw/<model>__<benchmark>.json` as soon as it finishes, and cached pairs are skipped on the next run.
+
+### Configuration (`benchmark_config.yaml`)
+
+```yaml
+evaluator:
+  base_url: "http://localhost:9000"
+  api: openai-chat          # or "simple" (this repo's original format)
+  model: "qwen2.5-72b-instruct"
+
+models:
+  - name: "Llama-3.1-8B"
+    base_url: "http://localhost:8001"
+    api: openai-chat
+    model: "llama-3.1-8b-instruct"
+  # ... one entry per model
+
+benchmarks:
+  - name: "Math"
+    file: "benchmarks/math.jsonl"
+    criteria: ["Accuracy", "Reasoning", "Clarity"]
+  # ... one entry per benchmark
+
+output_dir: "results"
+```
+
+Two API styles are supported per model/evaluator:
+
+- `simple` — `POST {base_url}` with `{"prompt": ...}`, expects `{"output": ...}` (the original format of this repo).
+- `openai-chat` — `POST {base_url}/v1/chat/completions` (llama.cpp server, vLLM, Ollama, LM Studio, or any OpenAI-compatible server). The evaluator uses `response_format` with a JSON schema to guarantee valid scoring output.
+
+### Outputs
+
+```
+results/
+├── raw/                        # per-pair raw answers + evaluations (resume cache)
+├── metrics.json                # aggregated metrics
+├── summary.csv                 # flat table: model, benchmark, criterion, avg_score
+├── charts/
+│   ├── overall_ranking.png     # avg score per model across all benchmarks
+│   ├── overall_by_benchmark.png# grouped bars: models compared per benchmark
+│   ├── heatmap_model_benchmark.png # model × benchmark score grid
+│   └── criteria_by_benchmark.png   # per-criterion small multiples
+└── comparison_report.html      # self-contained report: all charts + score tables
+```
+
 ## Configuration File (`config.yaml`)
 
 The configuration file is a YAML file that specifies:
