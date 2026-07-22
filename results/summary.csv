@@ -1,0 +1,101 @@
+model,benchmark,criterion,avg_score
+Qwen2.5-0.5B,General Knowledge,OVERALL,8.17
+Qwen2.5-0.5B,General Knowledge,Correctness,8.00
+Qwen2.5-0.5B,General Knowledge,Relevance,8.17
+Qwen2.5-0.5B,General Knowledge,Clarity,8.33
+Qwen2.5-0.5B,Math,OVERALL,8.17
+Qwen2.5-0.5B,Math,Accuracy,7.83
+Qwen2.5-0.5B,Math,Reasoning,8.00
+Qwen2.5-0.5B,Math,Clarity,8.67
+Qwen2.5-0.5B,Reasoning,OVERALL,5.11
+Qwen2.5-0.5B,Reasoning,Logical Soundness,5.17
+Qwen2.5-0.5B,Reasoning,Correctness,4.00
+Qwen2.5-0.5B,Reasoning,Clarity,6.17
+Qwen2.5-0.5B,Vietnamese,OVERALL,3.72
+Qwen2.5-0.5B,Vietnamese,Correctness,3.33
+Qwen2.5-0.5B,Vietnamese,Vietnamese Fluency,4.83
+Qwen2.5-0.5B,Vietnamese,Clarity,3.00
+Qwen2.5-0.5B,Medical,OVERALL,6.28
+Qwen2.5-0.5B,Medical,Accuracy,5.50
+Qwen2.5-0.5B,Medical,Faithfulness,6.50
+Qwen2.5-0.5B,Medical,Clarity,6.83
+Llama-3.2-1B,General Knowledge,OVERALL,8.89
+Llama-3.2-1B,General Knowledge,Correctness,8.83
+Llama-3.2-1B,General Knowledge,Relevance,9.17
+Llama-3.2-1B,General Knowledge,Clarity,8.67
+Llama-3.2-1B,Math,OVERALL,7.33
+Llama-3.2-1B,Math,Accuracy,7.17
+Llama-3.2-1B,Math,Reasoning,7.17
+Llama-3.2-1B,Math,Clarity,7.67
+Llama-3.2-1B,Reasoning,OVERALL,5.17
+Llama-3.2-1B,Reasoning,Logical Soundness,5.17
+Llama-3.2-1B,Reasoning,Correctness,3.83
+Llama-3.2-1B,Reasoning,Clarity,6.50
+Llama-3.2-1B,Vietnamese,OVERALL,6.89
+Llama-3.2-1B,Vietnamese,Correctness,6.50
+Llama-3.2-1B,Vietnamese,Vietnamese Fluency,7.83
+Llama-3.2-1B,Vietnamese,Clarity,6.33
+Llama-3.2-1B,Medical,OVERALL,8.28
+Llama-3.2-1B,Medical,Accuracy,8.33
+Llama-3.2-1B,Medical,Faithfulness,7.67
+Llama-3.2-1B,Medical,Clarity,8.83
+Gemma-3-1B,General Knowledge,OVERALL,8.78
+Gemma-3-1B,General Knowledge,Correctness,9.00
+Gemma-3-1B,General Knowledge,Relevance,8.67
+Gemma-3-1B,General Knowledge,Clarity,8.67
+Gemma-3-1B,Math,OVERALL,7.00
+Gemma-3-1B,Math,Accuracy,7.17
+Gemma-3-1B,Math,Reasoning,6.83
+Gemma-3-1B,Math,Clarity,7.00
+Gemma-3-1B,Reasoning,OVERALL,5.72
+Gemma-3-1B,Reasoning,Logical Soundness,6.17
+Gemma-3-1B,Reasoning,Correctness,4.33
+Gemma-3-1B,Reasoning,Clarity,6.67
+Gemma-3-1B,Vietnamese,OVERALL,7.28
+Gemma-3-1B,Vietnamese,Correctness,7.17
+Gemma-3-1B,Vietnamese,Vietnamese Fluency,7.83
+Gemma-3-1B,Vietnamese,Clarity,6.83
+Gemma-3-1B,Medical,OVERALL,8.28
+Gemma-3-1B,Medical,Accuracy,8.00
+Gemma-3-1B,Medical,Faithfulness,8.33
+Gemma-3-1B,Medical,Clarity,8.50
+Qwen2.5-1.5B,General Knowledge,OVERALL,9.06
+Qwen2.5-1.5B,General Knowledge,Correctness,8.83
+Qwen2.5-1.5B,General Knowledge,Relevance,9.33
+Qwen2.5-1.5B,General Knowledge,Clarity,9.00
+Qwen2.5-1.5B,Math,OVERALL,9.22
+Qwen2.5-1.5B,Math,Accuracy,9.33
+Qwen2.5-1.5B,Math,Reasoning,8.83
+Qwen2.5-1.5B,Math,Clarity,9.50
+Qwen2.5-1.5B,Reasoning,OVERALL,8.67
+Qwen2.5-1.5B,Reasoning,Logical Soundness,8.50
+Qwen2.5-1.5B,Reasoning,Correctness,9.00
+Qwen2.5-1.5B,Reasoning,Clarity,8.50
+Qwen2.5-1.5B,Vietnamese,OVERALL,7.50
+Qwen2.5-1.5B,Vietnamese,Correctness,7.50
+Qwen2.5-1.5B,Vietnamese,Vietnamese Fluency,7.67
+Qwen2.5-1.5B,Vietnamese,Clarity,7.33
+Qwen2.5-1.5B,Medical,OVERALL,8.11
+Qwen2.5-1.5B,Medical,Accuracy,8.00
+Qwen2.5-1.5B,Medical,Faithfulness,8.33
+Qwen2.5-1.5B,Medical,Clarity,8.00
+SmolLM2-1.7B,General Knowledge,OVERALL,9.44
+SmolLM2-1.7B,General Knowledge,Correctness,9.33
+SmolLM2-1.7B,General Knowledge,Relevance,9.83
+SmolLM2-1.7B,General Knowledge,Clarity,9.17
+SmolLM2-1.7B,Math,OVERALL,8.78
+SmolLM2-1.7B,Math,Accuracy,9.50
+SmolLM2-1.7B,Math,Reasoning,8.50
+SmolLM2-1.7B,Math,Clarity,8.33
+SmolLM2-1.7B,Reasoning,OVERALL,8.22
+SmolLM2-1.7B,Reasoning,Logical Soundness,8.17
+SmolLM2-1.7B,Reasoning,Correctness,8.50
+SmolLM2-1.7B,Reasoning,Clarity,8.00
+SmolLM2-1.7B,Vietnamese,OVERALL,2.17
+SmolLM2-1.7B,Vietnamese,Correctness,2.17
+SmolLM2-1.7B,Vietnamese,Vietnamese Fluency,3.00
+SmolLM2-1.7B,Vietnamese,Clarity,1.33
+SmolLM2-1.7B,Medical,OVERALL,8.33
+SmolLM2-1.7B,Medical,Accuracy,8.17
+SmolLM2-1.7B,Medical,Faithfulness,8.17
+SmolLM2-1.7B,Medical,Clarity,8.67

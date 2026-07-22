@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "question": "Thủ đô của Việt Nam là gì? Hãy giới thiệu ngắn gọn 2-3 câu về thành phố này.",
+    "model_output": "Thủ đô của Việt Nam là Hà Nội, nằm ở vùng Bắc Bộ. Thành phố này được biết đến với nhiều điểm du lịch hấp dẫn như:\n\n* Phố Cổ Hà Nội: Một trong những khu vực lịch sử và văn hóa nổi tiếng nhất của Việt Nam, với các tòa nhà cổ, chùa, đình, và các di tích khác.\n* Chợ Đồng Xuân: Một trong những chợ lớn nhất và đa dạng nhất tại Hà Nội, nơi bạn có thể tìm thấy nhiều loại hàng hóa và ẩm thực địa phương.\n* Phố Láng: Một khu vực du lịch nổi tiếng với nhiều quán ăn, nhà hàng, và cửa hàng bán đồ lưu niệm.",
+    "evaluation": {
+      "Correctness": {
+        "score": 9,
+        "justification": "Câu trả lời chính xác về thủ đô của Việt Nam và cung cấp thông tin chi tiết về các địa điểm du lịch nổi tiếng ở Hà Nội."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời lưu loát, nhưng có thể cải thiện thêm về sự đa dạng và phong phú của từ vựng."
+      },
+      "Clarity": {
+        "score": 9,
+        "justification": "Câu trả lời rõ ràng và dễ hiểu, cung cấp thông tin ngắn gọn và súc tích về Hà Nội."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Giải thích bằng tiếng Việt đơn giản: tại sao trời có màu xanh?",
+    "model_output": "Trời có màu xanh vì một số lý do sau:\n\n- Màu xanh là màu của nước và các chất lỏng khác. Vì vậy, khi ánh sáng đi qua nước và các chất lỏng khác trên bề mặt Trái Đất, nó sẽ tạo ra những tia sáng màu xanh.\n\n- Khi ánh sáng đi qua các lớp khí trong bầu trời, nó sẽ bị phân cực và tạo ra những tia sáng màu xanh.\n\n- Một số loại khí như oxy và nitơ cũng có thể tạo ra tia sáng màu xanh khi chúng phản ứng với ánh sáng mặt trời.\n\n- Ngoài ra, màu xanh cũng có thể được tạo ra bởi các hiện tượng tự nhiên khác như mây, gió, và các đám mây lớn.",
+    "evaluation": {
+      "Correctness": {
+        "score": 5,
+        "justification": "Câu trả lời không chính xác hoàn toàn vì nó đưa ra một số lý do sai lệch về màu xanh của bầu trời. Màu xanh thực sự đến từ việc ánh sáng mặt trời bị tán sắc bởi khí quyển, với các bước sóng ngắn (xanh dương) bị tán sắc nhiều hơn."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Câu trả lời được viết bằng tiếng Việt khá lưu loát và dễ hiểu, nhưng có một số từ ngữ không phù hợp hoặc sai lệch trong ngữ cảnh."
+      },
+      "Clarity": {
+        "score": 6,
+        "justification": "Ý tưởng chính của câu trả lời là rõ ràng, nhưng do nội dung không chính xác nên làm giảm độ rõ ràng tổng thể. Cần cải thiện việc giải thích các khái niệm khoa học một cách đơn giản và dễ hiểu hơn."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Viết một email ngắn (3-4 câu) bằng tiếng Việt xin nghỉ phép một ngày vì lý do gia đình, gửi cho trưởng phòng.",
+    "model_output": "Xin chào Trưởng phòng,\n\nTôi viết thư này để đề nghị được nghỉ phép một ngày để giải quyết một vấn đề gia đình. Tôi hy vọng có thể được ưu tiên và được nghỉ phép vào [ngày]. Tôi sẽ đảm bảo công việc được hoàn thành trước khi rời khỏi văn phòng.\n\nTrân trọng,\n[Tên của bạn]",
+    "evaluation": {
+      "Correctness": {
+        "score": 9,
+        "justification": "Email đúng ngữ cảnh và nội dung, nhưng thiếu thông tin về ngày nghỉ cụ thể."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng lưu loát, tuy nhiên có một số từ ngữ có thể được cải thiện để trở nên tự nhiên hơn."
+      },
+      "Clarity": {
+        "score": 9,
+        "justification": "Ý tưởng rõ ràng và dễ hiểu, nhưng cần thêm thông tin về ngày nghỉ cụ thể để tăng tính chi tiết."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' có nghĩa là gì? Cho một ví dụ thực tế.",
+    "model_output": "'Có công mài sắt, có ngày nên kim' là một câu tục ngữ Việt Nam, có nghĩa là người tốt bụng, nhân hậu khi làm việc sẽ được may mắn và thành công trong cuộc sống.\n\nVí dụ: Một người bạn của bạn là người giúp đỡ người khác trong thời gian khó khăn, luôn sẵn sàng lắng nghe và hỗ trợ. Dù phải đối mặt với nhiều khó khăn, nhưng anh ấy vẫn giữ tinh thần lạc quan và luôn tìm cách giúp đỡ người khác. Điều này đã khiến anh ấy trở thành một người có công mài sắt, có ngày nên kim.\n\nTrong cuộc sống, khi làm việc chăm chỉ, kiên trì và không bỏ cuộc, thì người ta sẽ được may mắn và thành công. Câu tục ngữ 'Có công mài sắt, có ngày nên kim' là một lời khuyên để mọi người hãy cố gắng làm việc chăm chỉ và kiên trì để đạt được mục tiêu của mình.",
+    "evaluation": {
+      "Correctness": {
+        "score": 6,
+        "justification": "Câu tục ngữ được giải thích không chính xác. Nó nên tập trung vào sự kiên trì và nỗ lực liên tục thay vì chỉ tốt bụng và nhân hậu."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời là lưu loát, nhưng có một số từ ngữ không cần thiết hoặc dư thừa làm giảm sự rõ ràng của thông điệp."
+      },
+      "Clarity": {
+        "score": 5,
+        "justification": "Câu trả lời thiếu rõ ràng về ý nghĩa thực sự của câu tục ngữ và ví dụ đưa ra không liên quan chặt chẽ đến nội dung chính của câu tục ngữ."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Tóm tắt đoạn sau trong 1-2 câu tiếng Việt: Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu của cả nước. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức, cùng với tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông.",
+    "model_output": "Dong bằng Sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp 50% sản lượng lúa và 90% gạo xuất khẩu. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức như xâm nhập mặn, sạt lở bờ sông và sụt lún đất do khai thác nước ngầm quá mức.",
+    "evaluation": {
+      "Correctness": {
+        "score": 8,
+        "justification": "Đáp án bao gồm thông tin chính xác về sản lượng lúa gạo và thách thức môi trường, nhưng thiếu thông tin về tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông."
+      },
+      "Vietnamese Fluency": {
+        "score": 9,
+        "justification": "Đáp án sử dụng ngôn ngữ tiếng Việt lưu loát và chính xác, nhưng có thể cải thiện bằng cách thêm từ nối để làm cho câu văn liền mạch hơn."
+      },
+      "Clarity": {
+        "score": 8,
+        "justification": "Đáp án rõ ràng về mặt nội dung nhưng có thể trở nên rõ ràng hơn nếu bao gồm tất cả các yếu tố được đề cập trong đoạn văn gốc, đặc biệt là tác động của biến đổi khí hậu và các đập thủy điện."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Phân biệt nghĩa của hai từ 'chín' trong câu: 'Cơm đã chín' và 'Chín người mười ý'.",
+    "model_output": "- Câu \"Cơm đã chín\" sử dụng từ \"chín\" để chỉ số lượng.\n\n- Câu \"Chín người mười ý\" sử dụng từ \"chín\" để chỉ số lượng.",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Câu trả lời không phân biệt đúng nghĩa của từ 'chín' trong hai ngữ cảnh khác nhau. Trong câu 'Cơm đã chín', 'chín' có nghĩa là nấu xong, còn trong câu 'Chín người mười ý', 'chín' chỉ số lượng."
+      },
+      "Vietnamese Fluency": {
+        "score": 6,
+        "justification": "Ngữ pháp và từ vựng sử dụng đúng nhưng thiếu sự phong phú và chi tiết cần thiết để diễn đạt ý kiến một cách rõ ràng."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Câu trả lời không cung cấp thông tin rõ ràng về sự khác biệt giữa hai ngữ cảnh sử dụng từ 'chín'."
+      }
+    }
+  }
+]

@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "question": "Thủ đô của Việt Nam là gì? Hãy giới thiệu ngắn gọn 2-3 câu về thành phố này.",
+    "model_output": "Thủ đô của Việt Nam là Hà Nội. Hà Nội là thủ đô của Việt Nam, là trung tâm chính trị, văn hóa và kinh tế lớn nhất trên thế giới. Thành phố này có nhiều điểm nổi bật như: \n\n1. Tỉnh Hà Nội: Là thành phố trực thuộc Trung ương, nằm ở phía bắc nước ta.\n\n2. Hà Nội: Là thủ đô của Việt Nam, là trung tâm chính trị, văn hóa và kinh tế lớn nhất trên thế giới.\n\n3. Thành phố này có nhiều điểm nổi bật như: \n\n- Tỉnh Hà Nội: Là thành phố trực thuộc Trung ương, nằm ở phía bắc nước ta.\n- Hà Nội: Là thủ đô của Việt Nam, là trung tâm chính trị, văn hóa và kinh tế lớn nhất trên thế giới.",
+    "evaluation": {
+      "Correctness": {
+        "score": 3,
+        "justification": "Câu trả lời đúng về thủ đô của Việt Nam nhưng thông tin về Hà Nội là trung tâm chính trị, văn hóa và kinh tế lớn nhất trên thế giới không chính xác."
+      },
+      "Vietnamese Fluency": {
+        "score": 4,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời khá lưu loát nhưng có sự lặp lại nội dung và cấu trúc câu."
+      },
+      "Clarity": {
+        "score": 2,
+        "justification": "Câu trả lời không rõ ràng do sự lặp lại thông tin và cấu trúc câu, gây khó hiểu cho người đọc."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Giải thích bằng tiếng Việt đơn giản: tại sao trời có màu xanh?",
+    "model_output": "Trong không khí của trái đất, ánh sáng từ các ngôi sao và vật thể khác đều được chuyển sang ánh sáng xanh. Điều này tạo nên màu xanh của bầu trời. Trái đất cũng có một phần của nó được xanh, nhưng đó là do sự thay đổi nhiệt độ và độ ẩm trong không khí trái đất.",
+    "evaluation": {
+      "Correctness": {
+        "score": 3,
+        "justification": "Câu trả lời không chính xác về nguyên nhân của màu xanh trời. Trời có màu xanh là do ánh sáng mặt trời đi qua khí quyển và các tia sáng màu xanh bị tán sắc nhiều hơn."
+      },
+      "Vietnamese Fluency": {
+        "score": 6,
+        "justification": "Câu trả lời sử dụng ngữ pháp tiếng Việt cơ bản nhưng có một số lỗi chính tả và cấu trúc câu chưa hoàn hảo. Ví dụ, 'Trái đất cũng có một phần của nó được xanh' là không rõ ràng."
+      },
+      "Clarity": {
+        "score": 2,
+        "justification": "Câu trả lời không rõ ràng về thông điệp chính và có thể gây nhầm lẫn cho người đọc vì giải thích sai nguyên nhân màu xanh của bầu trời."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Viết một email ngắn (3-4 câu) bằng tiếng Việt xin nghỉ phép một ngày vì lý do gia đình, gửi cho trưởng phòng.",
+    "model_output": "Xin lỗi, nhưng tôi không thể giúp bạn viết một email ngắn bằng tiếng Việt. Tôi là Qwen, một AI ngôn ngữ nhân tạo được tạo ra bởi Alibaba Cloud. Tôi có thể giúp bạn với các vấn đề về văn bản, thông tin hoặc các yêu cầu khác mà bạn cần.",
+    "evaluation": {
+      "Correctness": {
+        "score": 1,
+        "justification": "Đáp án không liên quan đến yêu cầu viết email xin nghỉ phép."
+      },
+      "Vietnamese Fluency": {
+        "score": 2,
+        "justification": "Ngôn ngữ sử dụng là tiếng Việt nhưng nội dung không phù hợp với yêu cầu của câu hỏi."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Nội dung trả lời không rõ ràng và không liên quan đến việc viết email xin nghỉ phép."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' có nghĩa là gì? Cho một ví dụ thực tế.",
+    "model_output": "Câu tục ngữ \"Có công mài sắt, có ngày nên kim\" được viết lại từ tiếng Việt và có nghĩa là: \"Tất cả những người làm việc đều cần sự kiên trì và cố gắng, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\" \n\nVí dụ thực tế:\n\n1. \"Người ta nói rằng, tất cả mọi người đều cần sự kiên trì và cố gắng để đạt được mục tiêu của mình, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\"\n\n2. \"Tất cả những người làm việc đều cần sự kiên trì và cố gắng, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\" \n\n3. \"Người ta nói rằng, tất cả mọi người đều cần sự kiên trì và cố gắng để đạt được mục tiêu của mình, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\"\n\n4. \"Tất cả những người làm việc đều cần sự kiên trì và cố gắng, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\" \n\n5. \"Người ta nói rằng, tất cả mọi người đều cần sự kiên trì và cố gắng để đạt được mục tiêu của mình, nhưng không phải lúc nào cũng cần phải cố gắng nhiều hơn.\"\n\nCâu tục ngữ này thường được sử dụng trong các bài học về sự kiên nhẫn, kiên trì và cố gắng. Nó nhấn mạnh tầm quan trọng của việc kiên trì và cố gắng, đồng thời cũng thể hiện rằng không phải lúc nào cũng cần phải cố gắng nhiều hơn để đạt được mục tiêu.",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Câu tục ngữ được giải thích không chính xác. Nó nên nhấn mạnh vào sự kiên trì và cố gắng sẽ dẫn đến thành công, chứ không phải là việc không cần cố gắng nhiều."
+      },
+      "Vietnamese Fluency": {
+        "score": 3,
+        "justification": "Ngữ pháp và từ vựng sử dụng trong câu trả lời có một số lỗi. Ví dụ, cách diễn đạt lặp lại và thiếu sự đa dạng trong ngôn ngữ."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Câu trả lời không rõ ràng vì nó lặp đi lặp lại cùng một ý nghĩa mà không đưa ra ví dụ thực tế phù hợp với câu tục ngữ."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Tóm tắt đoạn sau trong 1-2 câu tiếng Việt: Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu của cả nước. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức, cùng với tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông.",
+    "model_output": "Dựa trên đoạn văn bản này, tôi có thể tóm tắt lại thành 1-2 câu tiếng Việt sau:\n\n1. Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu của cả nước.\n\n2. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức, cùng với tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông.",
+    "evaluation": {
+      "Correctness": {
+        "score": 9,
+        "justification": "Câu trả lời chính xác tóm tắt nội dung của đoạn văn bản gốc, bao gồm cả thông tin về sản lượng lúa gạo và thách thức môi trường."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời lưu loát và dễ hiểu, nhưng có thể cải thiện thêm về mặt văn phong và sự đa dạng từ vựng."
+      },
+      "Clarity": {
+        "score": 9,
+        "justification": "Câu trả lời rõ ràng, trực tiếp đưa ra thông tin chính cần tóm tắt mà không gây nhầm lẫn cho người đọc."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Phân biệt nghĩa của hai từ 'chín' trong câu: 'Cơm đã chín' và 'Chín người mười ý'.",
+    "model_output": "Dựa trên các từ ngữ và cấu trúc ngữ pháp của hai câu bạn cung cấp, tôi có thể phân biệt được:\n\n1. \"Cơm đã chín\" - Đây là một từ ngữ chủ quan, nghĩa là \"cơm đã nhanh chóng chín\". \n\n2. \"Chín người mười ý\" - Đây là một từ ngữ tổng quát, nghĩa là \"chín người có 10 ý\".\n\nDựa vào cấu trúc ngữ pháp và nghĩa của hai câu bạn cung cấp, tôi phân biệt được rằng:\n\n- \"Cơm đã chín\" chỉ nói về sự nhanh chóng chín cơm.\n- \"Chín người mười ý\" chỉ nói về số lượng người có 10 ý.\n\nTóm lại, \"chín\" trong cả hai câu bạn cung cấp đều chỉ đơn thuần là một từ ngữ chủ quan.",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Câu trả lời không chính xác vì 'chín' trong câu 'cơm đã chín' chỉ sự hoàn thành quá trình nấu, còn trong 'chín người mười ý', 'chín' là số lượng và hàm ý đa dạng về quan điểm."
+      },
+      "Vietnamese Fluency": {
+        "score": 6,
+        "justification": "Ngữ pháp và từ vựng sử dụng khá tốt nhưng có một số lỗi nhỏ và cách diễn đạt đôi khi không tự nhiên."
+      },
+      "Clarity": {
+        "score": 3,
+        "justification": "Câu trả lời không rõ ràng vì nó gây nhầm lẫn giữa ý nghĩa thực sự của các từ 'chín' trong mỗi ngữ cảnh."
+      }
+    }
+  }
+]

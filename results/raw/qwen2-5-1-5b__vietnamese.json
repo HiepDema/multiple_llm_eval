@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "question": "Thủ đô của Việt Nam là gì? Hãy giới thiệu ngắn gọn 2-3 câu về thành phố này.",
+    "model_output": "Thủ đô của Việt Nam là Hà Nội. Đây là trung tâm chính trị, kinh tế và văn hóa của quốc gia. Thành phố này nổi tiếng với các di tích lịch sử như Lăng Chủ tịch Hồ Chí Minh, Nhà hát lớn, và các công viên cây xanh rộng lớn. Hà Nội cũng được biết đến với phong cách sống yên bình và ẩm thực đặc sắc.",
+    "evaluation": {
+      "Correctness": {
+        "score": 9,
+        "justification": "Câu trả lời chính xác về thủ đô của Việt Nam và cung cấp thông tin cơ bản về thành phố."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng lưu loát, nhưng có thể cải thiện thêm về sự đa dạng từ vựng và cấu trúc câu phức tạp hơn."
+      },
+      "Clarity": {
+        "score": 9,
+        "justification": "Câu trả lời rõ ràng, dễ hiểu và ngắn gọn như yêu cầu của câu hỏi."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Giải thích bằng tiếng Việt đơn giản: tại sao trời có màu xanh?",
+    "model_output": "Tại sao bầu trời thường là màu xanh? Đây là một câu hỏi phổ biến mà nhiều người đặt ra. Thực tế, bầu trời không phải là màu xanh, nhưng chúng ta cảm nhận được nó như vậy do phản ứng của mắt con người với ánh sáng.\n\n1. Ánh sáng từ mặt trời: Mặt trời chiếu vào bầu trời bằng ánh sáng màu trắng. Khi ánh sáng này đi qua khí quyển và tầng khí quyển bên trong bầu trời, nó bị phân tán và hấp thụ một phần.\n\n2. Hấp thụ ánh sáng: Các hạt khí quyển như hơi nước, khí carbon dioxide và các chất khác có thể hấp thụ một lượng lớn ánh sáng màu xanh của mặt trời. Ánh sáng này không còn đủ để tạo ra hình ảnh rõ ràng cho mắt con người.\n\n3. Tạo ra màu sắc: Khi ánh sáng bị hấp thụ, chúng ta cảm nhận được sự thiếu hụt và tạo nên màu sắc. Do đó, bầu trời trở nên xanh.\n\n4. Sự phân tán ánh sáng: Ánh sáng còn bị phân tán bởi các hạt khí quyển khác như hơi nước và khí carbon dioxide. Khi ánh sáng đi qua nhiều lớp này, nó sẽ giảm dần về màu sắc.\n\n5. Môi trường quang học: Bầu trời cũng có cấu trúc quang học đặc biệt giúp phân tán ánh sáng. Điều này tạo nên bầu trời xanh trong khi mặt trời vẫn tỏa sáng màu trắng.\n\nVì vậy, mặc dù bầu trời không phải là màu xanh, nhưng chúng ta cảm nhận được nó như vậy do phản ứng của mắt con người với ánh sáng và sự hấp thụ của các hạt khí quyển.",
+    "evaluation": {
+      "Correctness": {
+        "score": 8,
+        "justification": "Câu trả lời cung cấp thông tin cơ bản về lý do tại sao bầu trời có màu xanh, nhưng thiếu một số chi tiết khoa học chính xác như hiện tượng Rayleigh scattering."
+      },
+      "Vietnamese Fluency": {
+        "score": 9,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời rất lưu loát và dễ hiểu, chỉ có một vài từ ngữ cần được điều chỉnh để tăng tính chuyên nghiệp."
+      },
+      "Clarity": {
+        "score": 8,
+        "justification": "Câu trả lời khá rõ ràng nhưng có thể cải thiện thêm bằng cách tổ chức thông tin theo trình tự logic hơn và sử dụng ngôn ngữ đơn giản hơn cho người không chuyên về khoa học."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Viết một email ngắn (3-4 câu) bằng tiếng Việt xin nghỉ phép một ngày vì lý do gia đình, gửi cho trưởng phòng.",
+    "model_output": "Chào trưởng phòng,\n\nTôi xin nghỉ phép một ngày vì lý do gia đình. Tôi sẽ sớm trở lại làm việc và cảm ơn sự thông cảm của bạn.\n\nTrân trọng,\n[Tên của bạn]",
+    "evaluation": {
+      "Correctness": {
+        "score": 9,
+        "justification": "Email đúng ngữ cảnh và nội dung cần thiết, nhưng thiếu ngày tháng và không đề cập cụ thể về lý do gia đình."
+      },
+      "Vietnamese Fluency": {
+        "score": 8,
+        "justification": "Ngôn ngữ sử dụng lưu loát, tuy nhiên có thể cải thiện thêm bằng cách bổ sung thông tin chi tiết hơn."
+      },
+      "Clarity": {
+        "score": 7,
+        "justification": "Ý chính được truyền đạt rõ ràng nhưng thiếu cụ thể về thời gian nghỉ phép và lý do gia đình."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' có nghĩa là gì? Cho một ví dụ thực tế.",
+    "model_output": "Câu tục ngữ \"Có công mài sắt, có ngày nên kim\" có nghĩa là:\n\n- Nên luyện tập và cố gắng不懈怠，直到有一天你会变得非常优秀。\n- 通过持续的努力和不断的练习，最终会达到很高的水平。\n\n### Ví dụ thực tế:\nSuppose you're a beginner programmer and you've been learning to code for the past few months. You've tried different languages, but haven't found one that suits your style or interests.\n\nYou keep practicing every day, even when it's not fun or exciting. You read books, watch tutorials, and try to solve problems on websites like HackerRank or LeetCode.\n\nAfter a year of this relentless effort, you finally decide to take the plunge and start learning Python. You're nervous at first because you've never used it before, but you know that with your hard work, you'll be able to pick up the language quickly.\n\nYou dive into the tutorials, read through the documentation, and try out different exercises. It's not easy - there are many concepts you don't understand right away, but you're determined to learn them all.\n\nAfter a few weeks of this intense learning process, you finally start writing your first Python program! You feel a sense of accomplishment that you didn't even know was possible before. Your code runs perfectly and it's the result of months of hard work and dedication.\n\nThis is an example of how \"Có công mài sắt, có ngày nên kim\" works in real life - through continuous effort and practice, eventually you'll reach a point where your skills are so strong that they become second nature.",
+    "evaluation": {
+      "Correctness": {
+        "score": 8,
+        "justification": "The answer correctly interprets the proverb and provides a relevant example, but it includes some English text which should be avoided for full correctness."
+      },
+      "Vietnamese Fluency": {
+        "score": 5,
+        "justification": "While there are Vietnamese parts in the explanation, significant portions of the response are in English, reducing fluency. The Vietnamese used is mostly correct but could benefit from more natural phrasing and vocabulary."
+      },
+      "Clarity": {
+        "score": 7,
+        "justification": "The example provided is clear and easy to follow, effectively illustrating the meaning of the proverb despite some language mixing issues."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Tóm tắt đoạn sau trong 1-2 câu tiếng Việt: Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu của cả nước. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức, cùng với tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông.",
+    "model_output": "Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, nhưng đang đối mặt với nhiều thách thức như xâm nhập mặn, sạt lở bờ sông và sụt lún đất do khai thác nước ngầm quá mức.",
+    "evaluation": {
+      "Correctness": {
+        "score": 8,
+        "justification": "Đáp án bao gồm thông tin chính xác về sản xuất lúa gạo và thách thức môi trường, nhưng thiếu thông tin về tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông."
+      },
+      "Vietnamese Fluency": {
+        "score": 9,
+        "justification": "Đáp án sử dụng ngôn ngữ tiếng Việt lưu loát và chính xác, nhưng có thể cải thiện thêm về mặt cấu trúc câu để làm cho nó trở nên tự nhiên hơn."
+      },
+      "Clarity": {
+        "score": 8,
+        "justification": "Đáp án rõ ràng trong việc truyền đạt thông tin chính, nhưng có thể mất một chút thời gian để xác định các thách thức môi trường cụ thể do cách trình bày hơi ngắn gọn."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Phân biệt nghĩa của hai từ 'chín' trong câu: 'Cơm đã chín' và 'Chín người mười ý'.",
+    "model_output": "Trong tiếng Việt, \"chín\" có nhiều nghĩa khác nhau tùy thuộc vào ngữ cảnh sử dụng. Trong câu \"Cơm đã chín\", \"chín\" được dùng để chỉ số lượng hoặc độ tuổi của một nhóm đối tượng. \n\n1. Trong trường hợp này, \"chín\" không phải là một số tự nhiên mà là một trạng từ chỉ kết quả của việc nấu cơm. Khi nói \"cơm đã chín\", bạn đang nhấn mạnh rằng món ăn đã được nấu đến mức có thể ăn được.\n\n2. Trong câu \"Chín người mười ý\", \"chín\" lại không phải là số tự nhiên, mà là một trạng từ chỉ số lượng hoặc độ tuổi của một nhóm đối tượng. Trong trường hợp này, \"chín\" đề cập đến 9 người trong một nhóm lớn hơn.\n\nVì vậy, trong hai câu trên, \"chín\" có nghĩa khác nhau: trong câu đầu nó chỉ kết quả của việc nấu cơm, trong câu thứ hai nó chỉ số lượng hoặc độ tuổi của một nhóm đối tượng.",
+    "evaluation": {
+      "Correctness": {
+        "score": 3,
+        "justification": "Câu trả lời không chính xác vì đã nhầm lẫn về nghĩa của từ 'chín' trong mỗi ngữ cảnh. Trong câu 'cơm đã chín', 'chín' chỉ sự hoàn thành hoặc độ chín của cơm, còn trong câu 'chín người mười ý', 'chín' chỉ số lượng."
+      },
+      "Vietnamese Fluency": {
+        "score": 7,
+        "justification": "Câu trả lời lưu loát nhưng có một số lỗi ngữ pháp và không chính xác về nghĩa của từ 'chín'."
+      },
+      "Clarity": {
+        "score": 5,
+        "justification": "Ý tưởng được trình bày rõ ràng nhưng bị làm rối bởi sự nhầm lẫn về nghĩa của từ 'chín' trong mỗi ngữ cảnh."
+      }
+    }
+  }
+]

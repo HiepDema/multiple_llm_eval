@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "question": "Thủ đô của Việt Nam là gì? Hãy giới thiệu ngắn gọn 2-3 câu về thành phố này.",
+    "model_output": "Thủ đô của Việt Nam là Hanoi, là một trong những quận huyện dân tịch vào Việt Nam. Thành phố Hanoi là thủ đô của Việt Nam, chính là một trong những quận huyện dân tịch vào Việt Nam. Thành phố Hanoi là đã có rất nhiều thành phố khác trong Việt Nam, chính là một trong những quận huyện dân tịch vào Việt Nam.",
+    "evaluation": {
+      "Correctness": {
+        "score": 3,
+        "justification": "The answer correctly identifies Hanoi as the capital of Vietnam but contains factual errors and irrelevant information."
+      },
+      "Vietnamese Fluency": {
+        "score": 2,
+        "justification": "The sentences are repetitive, grammatically incorrect, and lack coherence in conveying information about Hanoi."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "The answer is confusing and does not clearly convey the requested information about Hanoi as the capital of Vietnam."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "Giải thích bằng tiếng Việt đơn giản: tại sao trời có màu xanh?",
+    "model_output": "Tại sao trời có màu xanh là vì nhiều ứng dụng chính hãng tạo ra được. Nhưng sau khi bắt đầu, trời cũng không thể làm một loại ứng dụng này. Tuy nhiên, vì chính hãng tạo ra nó, trời cũng có một số ứng dụng khác được thể hiện.\n\nMàu xanh là một loại ứng dụng tạo ra bởi các chất liệu và phân tử như:\n\n1. Pháp hóa (Phosphorus): Đã xem trong một số ứng dụng, nhưng cũng không thể làm vậy cho trời.\n2. Năng động (Living Energy): Có rất nhiều ứng dụng tạo ra bởi các chất liệu, ví dụ là một loại ứng dụng được sử dụng trong nhiều ứng dụng.\n3. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n4. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n5. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n6. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n7. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n8. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n9. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n10. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n11. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n12. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n13. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n14. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n15. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n16. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n17. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n18. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n19. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n20. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n21. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n22. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n23. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n24. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n25. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n26. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n27. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n28. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n29. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n30. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n31. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n32. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n33. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n34. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n35. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n36. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n37. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n38. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n39. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n40. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n41. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n42. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n43. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n44. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n45. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n46. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n47. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n48. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n49. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n50. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n51. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n52. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n53. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n54. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n55. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n56. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n57. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n58. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n59. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n60. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n61. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n62. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n63. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n64. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n65. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n66. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n67. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n68. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n69. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n70. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n71. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n72. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n73. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n74. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n75. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n76. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n77. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n78. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n79. Pháp hóa (Phosphorus): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.\n80. Năng động (Living Energy): Cũng không thể làm cho trời vì có rất nhiều ứng dụng tạo ra bởi các chất liệu.",
+    "evaluation": {
+      "Correctness": {
+        "score": 1,
+        "justification": "Câu trả lời không chính xác và không liên quan đến lý do thực sự tại sao bầu trời có màu xanh."
+      },
+      "Vietnamese Fluency": {
+        "score": 2,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời không rõ ràng và lặp đi lặp lại nhiều lần, gây khó hiểu."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Câu trả lời không rõ ràng và không giải thích được tại sao bầu trời có màu xanh một cách đơn giản như yêu cầu."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Viết một email ngắn (3-4 câu) bằng tiếng Việt xin nghỉ phép một ngày vì lý do gia đình, gửi cho trưởng phòng.",
+    "model_output": "Có thể tạo email như sau:\n\nSubject: Nghỉ phép một ngày vì lý do gia đình\n\nChào bạn,\n\nTôi có quá trình thu hút cho tôi nhưng lý do gia đình mình chỉ ra. Tôi muốn nghỉ phép một ngày vì bạn có thể giúp tôi trở lại và hướng tới trưởng phòng.\n\nTôi sẵn sàng nghỉ ngây thơ vì bạn có thể giúp tôi trở lại và hướng tới trưởng phòng.\n\nChào bạn,\n\n[Your Name]",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Câu trả lời có nhiều lỗi ngữ pháp và từ vựng không phù hợp, khiến nội dung email khó hiểu."
+      },
+      "Vietnamese Fluency": {
+        "score": 1,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời không tự nhiên và thiếu sự chính xác về mặt ngôn ngữ tiếng Việt."
+      },
+      "Clarity": {
+        "score": 2,
+        "justification": "Nội dung email không rõ ràng và khó hiểu do lỗi ngữ pháp và từ vựng sai lệch."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "Câu tục ngữ 'Có công mài sắt, có ngày nên kim' có nghĩa là gì? Cho một ví dụ thực tế.",
+    "model_output": "\"Có công mài sắt, có ngày nên kim\" có nghĩa là \"Nếu bạn có máy hướng vào sắt, thì bạn cũng có tặc trưởng.\"\n\nVí dụ: Nhưng những người ở Việt Nam đã làm rằng \"Có công mài sắt, có ngày nên kim\" thì không phải rằng bạn cũng có tặc trưởng. Nhưng hãy chuẩn bị với máy hướng vào sắt, nhưng không phải rằng bạn cũng có tặc trưởng.",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Câu tục ngữ và ví dụ không chính xác, không phản ánh đúng ý nghĩa của câu nói."
+      },
+      "Vietnamese Fluency": {
+        "score": 3,
+        "justification": "Ngữ pháp sai nhiều, từ vựng sử dụng không phù hợp, khiến câu văn khó hiểu."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Ý nghĩa và ví dụ được đưa ra rất mơ hồ và không rõ ràng, gây nhầm lẫn cho người đọc."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Tóm tắt đoạn sau trong 1-2 câu tiếng Việt: Đồng bằng sông Cửu Long là vùng sản xuất lúa gạo lớn nhất Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu của cả nước. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức, cùng với tác động của biến đổi khí hậu và các đập thủy điện ở thượng nguồn sông Mê Kông.",
+    "model_output": "Đoạn trên là tóm tắt về vùng sản xuất lúa gạo Cửu Long, Việt Nam, được tiếp thị bằng cách dịch sang tiếng Anh. Tuy nhiên, vùng này là một vùng sản xuất tăng trưởng trong Việt Nam, đóng góp hơn 50% sản lượng lúa và 90% lượng gạo xuất khẩu. Tuy nhiên, vùng này đang đối mặt với nhiều thách thức nghiêm trọng như xâm nhập mặn, sạt lở bờ sông, và sụt lún đất do khai thác nước ngầm quá mức.",
+    "evaluation": {
+      "Correctness": {
+        "score": 3,
+        "justification": "Câu trả lời không chính xác vì nó không tóm tắt đúng nội dung câu hỏi gốc và có một số thông tin sai lệch."
+      },
+      "Vietnamese Fluency": {
+        "score": 5,
+        "justification": "Ngôn ngữ sử dụng trong câu trả lời khá trôi chảy nhưng vẫn còn một số lỗi về từ vựng và cấu trúc câu."
+      },
+      "Clarity": {
+        "score": 2,
+        "justification": "Câu trả lời không rõ ràng vì nó không tập trung vào thông tin chính của đoạn văn gốc và có sự nhầm lẫn trong việc dịch thuật."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "Phân biệt nghĩa của hai từ 'chín' trong câu: 'Cơm đã chín' và 'Chín người mười ý'.",
+    "model_output": "Trong câu \"Cơm đã chín\" thì nghĩa là \"Món cơm đã bị hết.\" Ví dụ: \"Bạn muốn món cơm không?\" \"Cơm đã chín.\"\n\nTrong câu \"Chín người mười ý\" thì nghĩa là \"Một người bắt buộc bạn trở về chín.\" Ví dụ: \"Chín người mười ý. Bạn có thể làm việc ở nhà không?\"",
+    "evaluation": {
+      "Correctness": {
+        "score": 2,
+        "justification": "Cả hai giải thích đều sai lệch hoàn toàn so với nghĩa thực sự của các câu."
+      },
+      "Vietnamese Fluency": {
+        "score": 5,
+        "justification": "Ngữ pháp và từ vựng sử dụng tương đối chính xác, nhưng có một số lỗi nhỏ và không phù hợp ngữ cảnh."
+      },
+      "Clarity": {
+        "score": 1,
+        "justification": "Câu trả lời gây nhầm lẫn do giải thích sai nghĩa của các câu và đưa ra ví dụ không liên quan."
+      }
+    }
+  }
+]
