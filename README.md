@@ -8,12 +8,12 @@ Pipeline đánh giá và so sánh nhiều LLM cùng lúc: chạy ma trận **N m
 
 ```mermaid
 flowchart LR
-    A[benchmark_config.yaml<br/>+ benchmarks/*.jsonl] --> B[Runner]
-    B -->|"câu hỏi"| C[Model cần test<br/>(Ollama / vLLM / API cloud / model tự code)]
-    C -->|"câu trả lời"| D[Judge LLM<br/>(chấm 1-10 theo tiêu chí, ép JSON schema)]
-    D --> E[results/raw/*.json<br/>(cache resume)]
-    E --> F[metrics.json + summary.csv]
-    F --> G[4 chart PNG + comparison_report.html]
+    A["benchmark_config.yaml<br/>+ benchmarks/*.jsonl"] --> B["Runner"]
+    B -->|"câu hỏi"| C["Model cần test<br/>(Ollama / vLLM / API cloud / model tự code)"]
+    C -->|"câu trả lời"| D["Judge LLM<br/>(chấm 1-10 theo tiêu chí, ép JSON schema)"]
+    D --> E["results/raw/*.json<br/>(cache resume)"]
+    E --> F["metrics.json + summary.csv"]
+    F --> G["4 chart PNG + comparison_report.html"]
 ```
 
 Với mỗi cặp model × benchmark, runner gửi từng câu hỏi đến model, lấy câu trả lời, rồi nhờ **judge LLM** chấm theo các tiêu chí riêng của benchmark đó (mỗi tiêu chí: điểm nguyên 1–10 + một câu giải thích). Output của judge bị **ép đúng JSON schema** nên không bao giờ nhận điểm rác; nếu vẫn parse hỏng thì có fallback trích JSON từ văn bản, tệ nhất là ghi điểm 0 và bị loại khỏi trung bình (không kéo tụt điểm).
