@@ -12,6 +12,7 @@ import hashlib
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 import requests
 import yaml
@@ -201,10 +202,11 @@ def mock_evaluation(model_name, benchmark_name, question, criteria, model_index,
 # Runner
 # ---------------------------------------------------------------------------
 
-def run_pair(model_cfg, benchmark, evaluator_cfg, entries, mock, model_index, model_count):
-    results = []
+def run_pair(model_cfg, benchmark, evaluator_cfg, entries, mock, model_index,
+             model_count, workers=1):
     criteria = benchmark['criteria']
-    for entry in entries:
+
+    def process(entry):
         question = entry['question']
         entry_id = entry.get('id', '')
 
@@ -226,13 +228,18 @@ def run_pair(model_cfg, benchmark, evaluator_cfg, entries, mock, model_index, mo
                 print(f"  ! Error during evaluation: {e}")
                 evaluation = {c: {'score': 0, 'justification': 'Error during evaluation.'} for c in criteria}
 
-        results.append({
+        return {
             'id': entry_id,
             'question': question,
             'model_output': model_output,
             'evaluation': evaluation,
-        })
-    return results
+        }
+
+    if workers <= 1:
+        return [process(entry) for entry in entries]
+    # pool.map preserves input order; errors are handled per-question inside process()
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        return list(pool.map(process, entries))
 
 
 def aggregate(raw, models, benchmarks):
@@ -290,6 +297,9 @@ def main():
                         help='Skip running; rebuild metrics and charts from saved raw results')
     parser.add_argument('--fresh', action='store_true',
                         help='Ignore saved raw results and re-run every pair')
+    parser.add_argument('--workers', type=int, default=4,
+                        help='Concurrent questions per model x benchmark pair (default 4; '
+                             'pairs with OLLAMA_NUM_PARALLEL on the server side)')
     args = parser.parse_args()
 
     config = load_config(args.config)
@@ -334,7 +344,7 @@ def main():
             if args.limit:
                 entries = entries[:args.limit]
             results = run_pair(model, benchmark, evaluator_cfg, entries,
-                               args.mock, model_index, len(models))
+                               args.mock, model_index, len(models), args.workers)
             raw[model['name']][benchmark['name']] = results
             with open(pair_path, 'w', encoding='utf-8') as f:
                 json.dump(results, f, ensure_ascii=False, indent=2)

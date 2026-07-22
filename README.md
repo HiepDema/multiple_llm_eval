@@ -138,6 +138,7 @@ Useful flags:
 - `--limit N` — only run the first N questions of each benchmark.
 - `--charts-only` — skip inference; rebuild metrics and charts from saved raw results.
 - `--fresh` — ignore cached raw results and re-run every model × benchmark pair.
+- `--workers N` — concurrent questions per pair (default 4). Pairs with Ollama's server-side batching (`OLLAMA_NUM_PARALLEL`); use `--workers 1` for strictly sequential runs.
 
 Runs are **resumable**: each model × benchmark pair is saved to `results/raw/<model>__<benchmark>.json` as soon as it finishes, and cached pairs are skipped on the next run.
 
